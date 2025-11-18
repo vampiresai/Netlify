@@ -4,7 +4,7 @@
 
 [build]
   # If netlify.toml is at repository root, use this:
-  base = "website-sahil-main/website-sahil-main/sahil-main/Me"
+  base = "finalsahil-main/finalsahil-main/website-sahil-main/website-sahil-main/sahil-main/Me"
   publish = "wwwroot"
   command = "echo 'Deploying static site'"
 
@@ -13,4 +13,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
