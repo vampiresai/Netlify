@@ -1,0 +1,16 @@
+# Netlify Configuration
+# This file should be at the repository root: finalsahil/netlify.toml
+# But if placed in Me folder, use the configuration below
+
+[build]
+  # If netlify.toml is at repository root, use this:
+  base = "website-sahil-main/website-sahil-main/sahil-main/Me"
+  publish = "wwwroot"
+  command = "echo 'Deploying static site'"
+
+# Redirect all routes to index.html for SPA behavior
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
